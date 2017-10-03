@@ -3,8 +3,6 @@ var Hotel = mongoose.model('Hotel');
 
 module.exports.hotelsGetAll = function(req, res) {
 
-
-
     var offset = 0;
     var count = 5;
 
